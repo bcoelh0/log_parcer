@@ -1,0 +1,13 @@
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Metrics/BlockLength:
+  Exclude:
+    - "specs/*"
+
+Metrics/MethodLength:
+  Enabled: false
+
+
+Layout/LineLength:
+  Max: 140
